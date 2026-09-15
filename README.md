@@ -1,4 +1,6 @@
-# Negotiation Savings Efficiency
+# Negociation-Savings-Efficiency
+
+Gestão de Economia nas Negociações da Área de Supply Chain.
 
 Internal support platform for recording negotiation evidence and approved savings. The official SAP process remains unchanged.
 
