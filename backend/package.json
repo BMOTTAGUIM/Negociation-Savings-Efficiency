@@ -1,0 +1,19 @@
+{
+  "name": "negotiation-savings-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fastify": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.0"
+  }
+}

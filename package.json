@@ -1,0 +1,20 @@
+{
+  "name": "negotiation-savings-efficiency",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Internal platform for auditable negotiation savings records.",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "dev:frontend": "npm run dev --workspace frontend",
+    "dev:backend": "npm run dev --workspace backend",
+    "build": "npm run build --workspaces",
+    "typecheck": "npm run typecheck --workspaces"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
