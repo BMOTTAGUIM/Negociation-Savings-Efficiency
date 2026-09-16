@@ -6,14 +6,17 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "tsx src/db/migrate.ts"
   },
   "dependencies": {
     "fastify": "latest",
+    "pg": "latest",
     "tsx": "latest",
     "typescript": "latest"
   },
   "devDependencies": {
-    "@types/node": "^26.6.0"
+    "@types/node": "^26.6.0",
+    "@types/pg": "latest"
   }
 }
